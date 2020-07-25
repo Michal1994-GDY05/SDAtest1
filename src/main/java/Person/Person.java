@@ -13,6 +13,24 @@ public class Person {
     private LocalDate dateOfBirth;
 
     private int weight;
+    private int height;
+    private int cash;
+
+    public int getHeight() {
+        return height;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    public int getCash() {
+        return cash;
+    }
+
+    public void setCash(int cash) {
+        this.cash = cash;
+    }
 
     public int getWeight() {
         return weight;
