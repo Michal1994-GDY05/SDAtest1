@@ -9,6 +9,7 @@ public class Person {
     private String wifesName;
     private int noOfKids;
     boolean hasADod;
+    private int trzeciCommit;
 	private int age2;
 	private String L4;
 
@@ -75,6 +76,7 @@ public class Person {
         return dateOfBirth;
     }
 
+
     public void setDateOfBirth(LocalDate dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
@@ -107,4 +109,12 @@ public class Person {
 
     public void setL4(String l4) {
         L4 = l4;
+    }
+
+    public int getTrzeciCommit() {
+        return trzeciCommit;
+    }
+
+    public void setTrzeciCommit(int trzeciCommit) {
+        this.trzeciCommit = trzeciCommit;
     }
