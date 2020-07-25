@@ -3,6 +3,14 @@ package Person;
 public class Person {
     String name;
     int age;
+    boolean hasADod;
+
+    public Person(boolean hasADod) {
+        this.hasADod = hasADod;
+    }
+
+    public boolean isHasADod() {
+        return hasADod;
 
     public Person(int age) {
         this.age = age;
