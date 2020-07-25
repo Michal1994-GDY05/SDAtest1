@@ -9,6 +9,8 @@ public class Person {
     private String wifesName;
     private int noOfKids;
     boolean hasADod;
+	private int age2;
+
 
     private LocalDate dateOfBirth;
 
