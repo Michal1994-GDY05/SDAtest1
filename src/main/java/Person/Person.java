@@ -6,7 +6,7 @@ public class Person {
     private int age;
     private String wifesName;
     private int noOfKids;
-
+    boolean hasADod;
     private int weight;
 
     public int getWeight() {
@@ -16,6 +16,16 @@ public class Person {
     public void setWeight(int weight) {
         this.weight = weight;
     }
+
+
+
+    public Person(boolean hasADod) {
+        this.hasADod = hasADod;
+    }
+
+    public boolean isHasADod() {
+        return hasADod;
+
 
     public Person(int age) {
         this.age = age;
