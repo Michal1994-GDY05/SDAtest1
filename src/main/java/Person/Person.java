@@ -1,7 +1,11 @@
 package Person;
 
 public class Person {
-    String name;
+    private String name;
+    private int age;
+    private String wifesName;
+    private int noOfKids;
+
 
     public Person(String name) {
         this.name = name;
