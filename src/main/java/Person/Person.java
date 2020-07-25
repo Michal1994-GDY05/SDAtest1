@@ -9,6 +9,8 @@ public class Person {
     private String wifesName;
     private int noOfKids;
     private LocalDate dateOfBirth;
+    private long id;
+
 
     private int weight;
 
@@ -29,16 +31,26 @@ public class Person {
         this.age = age;
     }
 
-    public Person(String name, int age, String wifesName, int noOfKids, LocalDate dateOfBirth) {
+    public Person(String name, int age, String wifesName, int noOfKids, LocalDate dateOfBirth, long id, int weight) {
         this.name = name;
         this.age = age;
         this.wifesName = wifesName;
         this.noOfKids = noOfKids;
         this.dateOfBirth = dateOfBirth;
+        this.id = id;
+        this.weight = weight;
     }
 
     public LocalDate getDateOfBirth() {
         return dateOfBirth;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
     }
 
     public void setDateOfBirth(LocalDate dateOfBirth) {
