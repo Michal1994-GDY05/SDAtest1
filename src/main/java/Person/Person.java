@@ -10,6 +10,7 @@ public class Person {
     private int noOfKids;
     boolean hasADod;
 	private int age2;
+	private String L4;
 
 
     private LocalDate dateOfBirth;
@@ -41,6 +42,7 @@ public class Person {
     public void setWeight(int weight) {
         this.weight = weight;
     }
+
 
 
 
@@ -98,3 +100,11 @@ public class Person {
         this.name = name;
     }
 }
+
+    public String getL4() {
+        return L4;
+    }
+
+    public void setL4(String l4) {
+        L4 = l4;
+    }
