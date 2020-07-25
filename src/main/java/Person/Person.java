@@ -7,6 +7,16 @@ public class Person {
     private String wifesName;
     private int noOfKids;
 
+    private int weight;
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
     public Person(int age) {
         this.age = age;
     }
